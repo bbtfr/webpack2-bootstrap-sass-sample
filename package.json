@@ -1,0 +1,23 @@
+{
+  "name": "webpack2-bootstrap",
+  "version": "1.0.0",
+  "description": "A demo of how to import bootstrap-sass in webpack 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Theo Li",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "bbtfr/css-loader",
+    "file-loader": "^0.10.1",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
